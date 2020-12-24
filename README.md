@@ -1,2 +1,2 @@
-# Student-Register
+# EmojiDesciber
 Created with CodeSandbox

@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Delius&display=swap");
+:root {
+  --primaryColor: #ea2a6a;
+  --secondaryColor: #f9d335;
+}
+
+body {
+  margin: 1rem;
+  background-color: #4bdbc3;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.5;
+  background-color: var(--secondaryColor);
+  margin-bottom: 1rem;
+  font-family: "Delius", cursive;
+  border: 0px;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 4px 2px var(--primaryColor);
+}
+.info li {
+  box-shadow: 8px 8px 16px 8px #3bb2a0;
+  padding: 50px;
+  margin-top: 1rem;
+  display: block;
+}
+.option {
+  text-align: center;
+}
+.info {
+  padding: 0;
+  width: fit-content;
+  margin: auto;
+  background-color: var(--primaryColor);
+}
+.head {
+  width: fit-content;
+  margin: auto;
+  font-family: "Delius", cursive;
+  margin-bottom: 0.6rem;
+  text-align: center;
+  font-size: 2rem;
+}
+img {
+  height: 60px;
+  width: 60px;
+  margin: auto;
+  display: block;
+}
+.input {
+  margin: auto;
+  display: block;
+}
+.search-bar {
+  width: 30px;
+  height: 30px;
+}
