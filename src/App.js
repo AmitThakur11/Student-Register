@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./styles.css";
 import logo from "./images/l.svg";
-import search from "./images/search.svg";
 var data = {
   student1: [
     {
@@ -57,7 +56,7 @@ export default function App() {
   return (
     <div className="APP">
       <div>
-        <img src={logo} />
+        <img src={logo} alt="loading" />
         <pre className="head">STUDENTS DATA</pre>
       </div>
       <br />

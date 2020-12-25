@@ -14,25 +14,29 @@ button {
   padding: 0.5;
   background-color: var(--secondaryColor);
   margin-bottom: 1rem;
-  outline : none;
+  outline: none;
   font-family: "Delius", cursive;
   border: 0px;
   border-radius: 0.5rem;
   box-shadow: 0px 4px var(--primaryColor);
 }
 
-button:hover{
+button:hover {
   background-color: var(--primaryColor);
-  color:white;
-  cursor:pointer;
+  color: white;
+  cursor: pointer;
 }
 
-button:active{
+button:active {
   background-color: var(--primaryColor);
-  color:white;
+  color: white;
   box-shadow: 0 5px var(--secondaryColor);
   transform: translateY(3px);
-  
+}
+button:focus {
+  background-color: var(--primaryColor);
+  box-shadow: 0 5px var(--secondaryColor);
+  color: white;
 }
 .info li {
   box-shadow: 8px 8px 16px 8px #3bb2a0;
